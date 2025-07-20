@@ -1,0 +1,14 @@
+{
+  "name": "moodify-quotes",
+  "version": "1.0.0",
+  "description": "Moodify - Mood-based quotes web app using Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

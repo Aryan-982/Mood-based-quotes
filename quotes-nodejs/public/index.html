@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moodify</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Moodify</h1>
+      <p class="subtitle">Find a quote for your mood</p>
+    </header>
+    <main>
+      <section class="mood-select">
+        <h2>Select your mood</h2>
+        <div class="moods">
+          <button class="mood-btn" data-mood="happy" aria-label="Happy">
+            <span class="emoji">😊</span>
+            <span class="label">Happy</span>
+          </button>
+          <button class="mood-btn" data-mood="sad" aria-label="Sad">
+            <span class="emoji">😢</span>
+            <span class="label">Sad</span>
+          </button>
+          <button class="mood-btn" data-mood="angry" aria-label="Angry">
+            <span class="emoji">😠</span>
+            <span class="label">Angry</span>
+          </button>
+          <button class="mood-btn" data-mood="chill" aria-label="Chill">
+            <span class="emoji">😌</span>
+            <span class="label">Chill</span>
+          </button>
+        </div>
+      </section>
+      <section class="quote-section">
+        <div class="quote-card">
+          <blockquote id="quote">Select a mood to see a quote!</blockquote>
+        </div>
+        <button id="randomize-btn" class="randomize-btn" disabled>Randomize Again</button>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
