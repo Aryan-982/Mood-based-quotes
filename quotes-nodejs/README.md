@@ -1,2 +1,2 @@
 # Mood-based-quotes
-https://wormhole.app/l31zyW#xVetfqvIR3HRgcToayEIUw
+https://filebin.net/ufiz3jww3brkek1i
