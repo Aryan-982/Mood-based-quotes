@@ -1,2 +1,2 @@
 # Mood-based-quotes
-https://notepad.pw/aryanaws
+https://wormhole.app/l31zyW#xVetfqvIR3HRgcToayEIUw
